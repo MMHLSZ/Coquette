@@ -1,0 +1,81 @@
+/* shoppping banner */
+
+* {
+  font-family: "Popins", sans-serif;
+}
+
+#shopping-banner{
+  max-width: 1200px;
+  width: 90%;
+  margin: 50px auto;
+  background-color: var(--main-light);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.shopping-banner-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.shopping-banner-img{
+ max-width: 100%;
+ height: auto;
+}
+
+.shopping-banner-img img{
+  max-width: 100%;
+  height: auto;
+  object-position: center;
+  margin-left: 20px;
+}
+
+.shopping-banner-text{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-left:50px;
+}
+
+.shopping-banner-text h3{
+  color: #181818;
+  font-size: 1.8rem;
+}
+
+.shopping-banner-text strong{
+  color: var(--main-dark);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+}
+
+.shopping-banner-text b, .shopping-banner-text p{
+  color: #3f3f37;
+  margin: 10px 0px;
+  font-family:'Poppins', sans-serif;
+  font-size: 0.9rem;
+}
+
+.shopping-banner-text a{
+  color: #ffffff;
+  background-color: var(--main-dark);
+  max-width: 160px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10px;
+  transition: all ease 0.3s;
+  justify-content: center;
+}
+
+.shopping-banner-text a:hover{
+  opacity: 0.8;
+}
