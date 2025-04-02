@@ -3,7 +3,7 @@
   max-width: 1200px;
   width: 90%;
   margin: 50px auto;
-  font-family: "Popins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #popular h2,
@@ -11,7 +11,7 @@
   color: #1d1d1d;
   font-size: 1.6rem;
   font-weight: 600;
-  font-family: "Popins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .popular-dress-container {
@@ -143,6 +143,7 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .popular-banner-text h3 {
@@ -155,7 +156,7 @@
   color: var(--main-dark);
   font-weight: 500;
   margin-top: 30px;
-  font-family: "Popins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .popular-banner-img {

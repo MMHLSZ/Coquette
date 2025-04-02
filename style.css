@@ -68,6 +68,7 @@ ul {
   font-size: 0.8rem;
   font-weight: 500;
   margin-top: -40px;
+  font-family: 'Silkscreen', sans-serif;
 }
 
 .nav-location a svg {
@@ -91,6 +92,7 @@ ul {
   height: 150%;
   object-fit: contain;
   object-position: center;
+  padding-top: 20px;
 }
 
 .nav-btns {
@@ -139,7 +141,8 @@ ul {
   max-width: 1200px;
   width: 90%;
   margin: auto;
-  padding: 20px 0px;
+  margin-top: 30px;
+  padding: 10px 0px;
   z-index: 101;
   position: relative;
 }
@@ -175,7 +178,8 @@ ul {
   padding: 2px 10px;
   background-color: var(--main-dark);
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: 'Silkscreen', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;

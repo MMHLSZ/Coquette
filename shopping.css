@@ -52,7 +52,8 @@
   color: var(--main-dark);
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-weight: 600;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .shopping-banner-text b, .shopping-banner-text p{
